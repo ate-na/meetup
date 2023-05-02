@@ -1,0 +1,50 @@
+.list {
+  background-color: purple;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  align-items: center;
+}
+
+.list li {
+  padding-inline: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.list li:hover,
+.list a:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  text-align: center;
+  color: purple;
+  height: 50px;
+}
+
+.list a:hover {
+  color: purple;
+}
+
+.main {
+  margin: 3rem auto;
+  width: 90%;
+  max-width: 40rem;
+}
+
+
+.numberofFavorite{
+  border: 1px solid white;
+  border-radius: 30px;
+  color: purple;
+  background-color: white;
+  padding: 2px;
+}
